@@ -1,0 +1,96 @@
+.background {
+    width: 100%;
+    height:100%;
+}
+.car1{
+    width: 150px;
+    height: 100px;
+    animation: car 5s 5s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.bakgroun-class {
+    position: relative;
+}
+.car-class {
+    position: absolute;
+    top:  600px;
+    left: 10px;
+}
+
+@keyframes car{
+    100% {transform: translateX(1300px) rotate(0deg); }
+
+}
+.car2 {
+    width: 150px;
+    height: 100px;
+    animation: car2 5s 5s;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    z-index: auto;
+
+}
+.car-class1 {
+    position: absolute;
+    top:  652px;
+    left: 10px;
+}
+@keyframes car2{
+    100% {transform: translateX(1300px) rotate(0deg); }
+}
+.finish-block{
+    position: absolute;
+    right: 0px;
+    top: 645px;
+}
+.finish {
+    width: 120px;
+    height: 60px;
+    transform: rotate(90deg);
+    
+    
+}
+.cloud-block-1 {
+    position: absolute;
+    top: 200px;
+}
+.cloud-block-2 {
+    position: absolute;
+    top: 240px;
+    left: 300px;
+}
+.cloud {
+    width: 200px;
+    height: 100px;
+    animation: cloud 10s 5s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out	;
+    animation-fill-mode: forwards;
+}
+@keyframes cloud
+{
+    100% {transform: translateX(1300px) rotate(0deg); }
+
+}
+.sun-block {
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    top: 30px;
+    left: 20px;
+}
+.sun {
+    animation: sun 10s 5s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out	;
+    animation-fill-mode: forwards;
+
+}
+@keyframes sun
+{
+    100% {transform: translateX(800px) rotate(180deg); }
+}
+
